@@ -1,0 +1,4 @@
+﻿  Math.cpp
+D:\acso\prob1_sem3\prob1_sem3\Math.cpp(65,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\acso\prob1_sem3\prob1_sem3\Math.cpp(66,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  prob1_sem3.vcxproj -> D:\acso\prob1_sem3\x64\Debug\prob1_sem3.exe
