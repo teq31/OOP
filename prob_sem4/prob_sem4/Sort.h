@@ -8,7 +8,7 @@ class Sort
 public:
     Sort(int count, int min, int max);
     Sort(std::initializer_list<int> list);
-    Sort(const std::vector<int>& v, int count);
+    Sort(int v[100], int count);
     Sort(int count, ...);
     Sort(const std::string& str);
 

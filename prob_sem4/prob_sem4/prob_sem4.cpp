@@ -29,7 +29,7 @@ int main()
     s2.Print();
 
     // Vector existent
-    std::vector<int> vec{ 10, 30, 40, 20, 50 };
+    int vec[100] = { 10, 30, 40, 20, 50 };
     Sort s3(vec, 3);
     std::cout << "Vector Elements: ";
     s3.Print();

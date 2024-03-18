@@ -9,11 +9,14 @@ Sort::Sort(int count, int min, int max)
 		elem.push_back(rand() % (max - min + 1) + min);
 }
 
-Sort::Sort(std::initializer_list<int> list) : elem(list) {}
-
-Sort::Sort(const std::vector<int>& v, int count)
+Sort::Sort(std::initializer_list<int> list)
 {
-	elem.assign(v.begin(), v.begin() + count);
+	for (int num : list) elem.push_back(num);
+}
+
+Sort::Sort(int v[100], int count)
+{
+	for (int i = 0; i < count; i++) elem.push_back(v[i]);
 }
 
 Sort::Sort(int count, ...) 
@@ -30,22 +33,23 @@ Sort::Sort(int count, ...)
 
 Sort::Sort(const std::string& str)
 {
-	std::string number;
+	int number = 0;
 	for (int i = 0; i < str.size(); i++) 
 	{
 		char c = str[i];
 		if (c == ',')
 		{
-			elem.push_back(std::stoi(number));
-			number.clear();
+			elem.push_back(number);
+			number = 0;
 		}
 		else 
 		{
-			number += c;
+			int cif = c - '0';
+			number =number * 10 + cif;
 		}
 	}
-	if (!number.empty())
-		elem.push_back(std::stoi(number));
+	if (number!=0)
+		elem.push_back(number);
 }
 
 
