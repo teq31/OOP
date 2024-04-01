@@ -1,0 +1,7 @@
+﻿  Circuit.cpp
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem6\prob_sem6\Circuit.cpp(26,40): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem6\prob_sem6\Circuit.cpp(26,93): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Volvo.cpp
+  prob_sem6.cpp
+  Generating Code...
+  prob_sem6.vcxproj -> C:\Users\teodo\Documents\GitHub\OOP\prob_sem6\x64\Debug\prob_sem6.exe
