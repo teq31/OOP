@@ -1,0 +1,23 @@
+﻿  prob2_sem7.cpp
+C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(66,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(66,17):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(80,19):
+  	see reference to class template instantiation 'TreeNode<int>' being compiled
+  	C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(62,9):
+  	while compiling class template member function 'int TreeNode<int>::count(TreeNode<int> *)'
+  		C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(104,74):
+  		see the first reference to 'TreeNode<int>::count' in 'main'
+  
+C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(54,116): error C2676: binary '<': 'const TreeNode<int>' does not define this operator or a conversion to a type acceptable to the predefined operator
+  C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(54,116):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(52,10):
+  	while compiling class template member function 'void TreeNode<int>::sort(std::function<bool (const T &,const T &)>)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\teodo\Documents\GitHub\OOP\prob2_sem7\prob2_sem7\prob2_sem7.cpp(98,14):
+  		see the first reference to 'TreeNode<int>::sort' in 'main'
+  
