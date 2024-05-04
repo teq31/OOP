@@ -1,0 +1,13 @@
+﻿  prob_sem9.cpp
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(136,33): error C3312: no callable 'begin' function found for type 'const Map<int,const char *>'
+  C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(136,33):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(147,5):
+  	see reference to function template instantiation 'void PrintMap<int,const char*>(const Map<int,const char *> &)' being compiled
+  
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(136,33): error C3312: no callable 'end' function found for type 'const Map<int,const char *>'
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(136,31): error C2059: syntax error: ':'
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(136,38): error C2143: syntax error: missing ';' before '{'
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(137,48): error C2065: 'i': undeclared identifier
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(137,51): error C2065: 'key': undeclared identifier
+C:\Users\teodo\Documents\GitHub\OOP\prob_sem9\prob_sem9\prob_sem9.cpp(137,56): error C2065: 'value': undeclared identifier
